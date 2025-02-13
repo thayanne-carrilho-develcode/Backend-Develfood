@@ -1,5 +1,60 @@
 {
   "restaurants": [
-    
+    {
+      "cnpj": "11.111.111/1111-11",
+      "name": "Thayanne",
+      "phone": "(11) 11111-1111",
+      "email": "thayannescarrilho@gmail.com",
+      "password": "Thay!234",
+      "foodTypes": [
+        "Brasileira"
+      ],
+      "nickname": "Casa",
+      "zipcode": "69090-630",
+      "street": "Rua Ibiá",
+      "neighborhood": "Cidade Nova",
+      "city": "Manaus",
+      "state": "AM",
+      "number": "13",
+      "id": 1
+    },
+    {
+      "nickname": "Casa",
+      "zipcode": "69090-630",
+      "street": "Rua Ibiá",
+      "neighborhood": "Cidade Nova",
+      "city": "Manaus",
+      "state": "AM",
+      "number": "13",
+      "id": 2
+    },
+    {
+      "cnpj": "11.111.111/1111-11",
+      "name": "Guilherme",
+      "phone": "(11) 11111-1111",
+      "email": "gui@gmail.com",
+      "password": "Gui!2345",
+      "foodTypes": [
+        "Brasileira"
+      ],
+      "nickname": "Casa",
+      "zipcode": "69090-630",
+      "street": "Rua Ibiá",
+      "neighborhood": "Cidade Nova",
+      "city": "Manaus",
+      "state": "AM",
+      "number": "13",
+      "id": 3
+    },
+    {
+      "nickname": "Casa",
+      "zipcode": "69090-630",
+      "street": "Rua Ibiá",
+      "neighborhood": "Cidade Nova",
+      "city": "Manaus",
+      "state": "AM",
+      "number": "13",
+      "id": 4
+    }
   ]
 }
