@@ -4,5 +4,65 @@
   "promotions": [
   ],
   "reviews": [
+    {
+      "comment": "Ótimo atendimento e comida deliciosa!",
+      "rating": 5,
+      "date": "18/02/2025",
+      "id": "7d29"
+    },
+    {
+      "comment": "Ambiente agradável, mas a comida demorou muito.",
+      "rating": 3,
+      "date": "17/02/2025",
+      "id": "5905"
+    },
+    {
+      "comment": "Comida boa, mas poderia ser mais quente.",
+      "rating": 4,
+      "date": "16/02/2025",
+      "id": "bb76"
+    },
+    {
+      "comment": "Não gostei do sabor. Não volto.",
+      "rating": 2,
+      "date": "15/02/2025",
+      "id": "d490"
+    },
+    {
+      "comment": "Experiência maravilhosa, voltarei com certeza!",
+      "rating": 5,
+      "date": "14/02/2025",
+      "id": "3193"
+    },
+    {
+      "comment": "O atendimento deixou a desejar, mas a comida estava boa.",
+      "rating": 3,
+      "date": "13/02/2025",
+      "id": "dedd"
+    },
+    {
+      "comment": "Perfeito! Adorei tudo.",
+      "rating": 5,
+      "date": "12/02/2025",
+      "id": "1946"
+    },
+    {
+      "comment": "Comida boa, mas o preço foi muito alto.",
+      "rating": 2,
+      "date": "11/02/2025",
+      "id": "a4f2"
+    },
+    {
+      "comment": "Serviço excelente, recomendo!",
+      "rating": 4,
+      "date": "10/02/2025",
+      "id": "097f"
+    },
+    {
+      "comment": "Fui bem atendido, mas achei o ambiente barulhento.",
+      "rating": 3,
+      "date": "09/02/2025",
+      "id": "0faf"
+    }
   ]
 }
