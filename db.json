@@ -1,8 +1,26 @@
 {
   "restaurants": [
+    {
+      "id": "4c71",
+      "cnpj": "11.111.111/1111-11",
+      "name": "Restaurante Devel",
+      "phone": "(11) 11111-1111",
+      "email": "teste@develfood.com",
+      "password": "Teste!23",
+      "foodTypes": [
+        "Brasileira"
+      ],
+      "nickname": "Devel",
+      "zipcode": "95040-000",
+      "street": "Rua General Arcy da Rocha Nóbrega",
+      "neighborhood": "Jardim América",
+      "city": "Caxias do Sul",
+      "state": "RS",
+      "number": "1"
+    }
   ],
-  "promotions": [
-  ],
+  "menu": [],
+  "promotions": [],
   "reviews": [
     {
       "comment": "Ótimo atendimento e comida deliciosa!",
