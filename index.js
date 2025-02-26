@@ -12,7 +12,7 @@ server.use(cors({
 server.use(middlewares);
 server.use(jsonServer.bodyParser);
 
-server.use(router); // Remove o '/api', mantendo as rotas diretas
+server.use(router); 
 
 const PORT = process.env.PORT || 3001;
 server.listen(PORT, () => {
