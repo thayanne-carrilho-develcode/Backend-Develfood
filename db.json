@@ -1,17 +1,18 @@
 {
   "restaurants": [
     {
-      "id": "4c71",
-      "cnpj": "11.111.111/1111-11",
-      "name": "Restaurante Devel",
-      "phone": "(11) 11111-1111",
+      "id": "f246",
+      "cnpj": "11111111111111",
+      "name": "Devel Lanche",
+      "phone": "11111111111",
       "email": "teste@develfood.com",
       "password": "Teste!23",
       "foodTypes": [
-        "Brasileira"
+        "Brasileira",
+        "Picante"
       ],
       "nickname": "Devel",
-      "zipcode": "95040-000",
+      "zipcode": "95040000",
       "street": "Rua General Arcy da Rocha Nóbrega",
       "neighborhood": "Jardim América",
       "city": "Caxias do Sul",
@@ -19,8 +20,58 @@
       "number": "1"
     }
   ],
-  "menu": [],
-  "promotions": [],
+  "menu": [
+    {
+      "name": "Coca-cola",
+      "description": "2 litros",
+      "price": 15.9,
+      "foodCategory": "bebida",
+      "foodImage": "https://i.ibb.co/XfbbKwBV/bebida-1.png",
+      "available": true,
+      "updatedAt": "2025-02-28T14:44:24.490Z",
+      "id": "5411"
+    },
+    {
+      "name": "Big Devel",
+      "description": "- 2 x 220g\n- Tomate\n- Alface americana\n- ..... ",
+      "price": 49.9,
+      "foodCategory": "comida",
+      "foodImage": "https://i.ibb.co/B2CNSFFr/comida-1.png",
+      "available": true,
+      "updatedAt": "2025-02-28T14:55:09.319Z",
+      "id": "692d"
+    },
+    {
+      "name": "Sorvete ",
+      "description": "Experimente o nosso Sorvete de Morango, feito com morangos frescos e selecionados. Cremoso, refrescante e delicioso, sem glúten. A opção perfeita para qualquer momento!",
+      "price": 19.9,
+      "foodCategory": "sobremesa",
+      "foodImage": "https://i.ibb.co/7PR3FBr/sobremesa-1.png",
+      "available": true,
+      "updatedAt": "2025-02-28T14:54:34.685Z",
+      "id": "89ed"
+    }
+  ],
+  "promotions": [
+    {
+      "id": "6015",
+      "name": "Segundou",
+      "discount": "5",
+      "startDate": "2025-02-24T03:00:00.000Z",
+      "endDate": "2025-02-28T03:00:00.000Z",
+      "imageUrl": "https://i.ibb.co/wNvWzqRH/promo-1-png.jpg",
+      "createdAt": "2025-02-28T14:25:24.176Z"
+    },
+    {
+      "id": "0e31",
+      "name": "Quartou",
+      "discount": "10",
+      "startDate": "2025-02-24T03:00:00.000Z",
+      "endDate": "2025-02-28T03:00:00.000Z",
+      "imageUrl": "https://i.ibb.co/wNvWzqRH/promo-1-png.jpg",
+      "createdAt": "2025-02-28T14:25:49.981Z"
+    }
+  ],
   "reviews": [
     {
       "comment": "Ótimo atendimento e comida deliciosa!",
