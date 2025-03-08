@@ -20,56 +20,118 @@
       "number": "1"
     }
   ],
-  "menu": [
+  "menu": [],
+  "promotions": [],
+  "orders": [
     {
-      "name": "Coca-cola",
-      "description": "2 litros",
-      "price": 15.9,
-      "foodCategory": "bebida",
-      "foodImage": "https://i.ibb.co/XfbbKwBV/bebida-1.png",
-      "available": true,
-      "updatedAt": "2025-02-28T14:44:24.490Z",
-      "id": "5411"
+      "id": "1",
+      "name": "Lanche de Frango",
+      "note": "Sem maionese",
+      "quantity": 1,
+      "paymentType": "Crédito",
+      "price": 25,
+      "orderDate": "2025-03-08T12:00:00.000Z",
+      "status": "Em Preparação",
+      "statusChangedDate": "2025-03-08T02:14:23.504Z"
     },
     {
+      "id": "2",
+      "name": "Hamburguer Clássico",
+      "note": "Com cebola caramelizada crocrante",
+      "quantity": 2,
+      "paymentType": "Débito",
+      "price": 40,
+      "orderDate": "2025-03-08T12:00:00.000Z",
+      "status": "Em Preparação",
+      "statusChangedDate": "2025-03-08T13:50:48.308Z"
+    },
+    {
+      "id": "3",
+      "name": "Pizza Marguerita",
+      "note": "Sem tomate",
+      "quantity": 1,
+      "paymentType": "Dinheiro",
+      "price": 35,
+      "orderDate": "2025-03-08T12:00:00.000Z",
+      "status": "Em Preparação",
+      "statusChangedDate": "2025-03-08T16:51:19.136Z"
+    },
+    {
+      "id": "4",
       "name": "Big Devel",
-      "description": "- 2 x 220g\n- Tomate\n- Alface americana\n- ..... ",
-      "price": 49.9,
-      "foodCategory": "comida",
-      "foodImage": "https://i.ibb.co/B2CNSFFr/comida-1.png",
-      "available": true,
-      "updatedAt": "2025-02-28T14:55:09.319Z",
-      "id": "692d"
+      "note": "Com queijo extra",
+      "quantity": 2,
+      "paymentType": "Débito",
+      "price": 28,
+      "orderDate": "2025-03-08T12:00:00.000Z",
+      "status": "Em Rota",
+      "statusChangedDate": "2025-03-08T02:00:13.766Z"
     },
     {
-      "name": "Sorvete ",
-      "description": "Experimente o nosso Sorvete de Morango, feito com morangos frescos e selecionados. Cremoso, refrescante e delicioso, sem glúten. A opção perfeita para qualquer momento!",
-      "price": 19.9,
-      "foodCategory": "sobremesa",
-      "foodImage": "https://i.ibb.co/7PR3FBr/sobremesa-1.png",
-      "available": true,
-      "updatedAt": "2025-02-28T14:54:34.685Z",
-      "id": "89ed"
-    }
-  ],
-  "promotions": [
-    {
-      "id": "6015",
-      "name": "Segundou",
-      "discount": "5",
-      "startDate": "2025-02-24T03:00:00.000Z",
-      "endDate": "2025-02-28T03:00:00.000Z",
-      "imageUrl": "https://i.ibb.co/wNvWzqRH/promo-1-png.jpg",
-      "createdAt": "2025-02-28T14:25:24.176Z"
+      "id": "5",
+      "name": "Cachorro Quente",
+      "note": "Com ketchup e mostarda",
+      "quantity": 3,
+      "paymentType": "Crédito",
+      "price": 18,
+      "orderDate": "2025-03-08T12:00:00.000Z",
+      "status": "Em Preparação",
+      "statusChangedDate": "2025-03-08T13:39:46.723Z"
     },
     {
-      "id": "0e31",
-      "name": "Quartou",
-      "discount": "10",
-      "startDate": "2025-02-24T03:00:00.000Z",
-      "endDate": "2025-02-28T03:00:00.000Z",
-      "imageUrl": "https://i.ibb.co/wNvWzqRH/promo-1-png.jpg",
-      "createdAt": "2025-02-28T14:25:49.981Z"
+      "id": "6",
+      "name": "Frango Grelhado",
+      "note": "Com arroz e salada",
+      "quantity": 2,
+      "paymentType": "Débito",
+      "price": 40,
+      "orderDate": "2025-03-08T12:00:00.000Z",
+      "status": "Em Preparo",
+      "statusChangedDate": "2025-03-08T16:13:37.762Z"
+    },
+    {
+      "id": "7",
+      "name": "Tacos de Carne",
+      "note": "Com guacamole",
+      "quantity": 5,
+      "paymentType": "Dinheiro",
+      "price": 50,
+      "orderDate": "2025-03-08T12:00:00.000Z",
+      "status": "Em Preparo",
+      "statusChangedDate": "2025-03-08T15:55:30.901Z"
+    },
+    {
+      "id": "8",
+      "name": "Bife à Parmegiana",
+      "note": "Sem queijo",
+      "quantity": 1,
+      "paymentType": "Crédito",
+      "price": 30,
+      "orderDate": "2025-03-08T12:00:00.000Z",
+      "status": "Em Rota",
+      "statusChangedDate": "2025-03-08T13:39:09.021Z"
+    },
+    {
+      "id": "9",
+      "name": "Espaguete à Bolonhesa",
+      "note": "Com molho extra",
+      "quantity": 2,
+      "paymentType": "Débito",
+      "price": 38,
+      "orderDate": "2025-03-08T12:00:00.000Z",
+      "status": "Em Rota",
+      "statusChangedDate": "2025-03-08T16:13:42.468Z"
+    },
+    {
+      "id": "10",
+      "name": "Sushi Variado",
+      "note": "Com molho de soja",
+      "quantity": 1,
+      "paymentType": "Crédito",
+      "price": 60,
+      "orderDate": "2025-03-08T12:00:00.000Z",
+      "status": "Em Rota",
+      "statusChangedDate": "2025-03-08T15:34:05.577Z"
     }
   ],
   "reviews": [
