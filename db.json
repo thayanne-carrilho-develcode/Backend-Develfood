@@ -1,23 +1,25 @@
 {
   "restaurants": [
     {
-      "id": "f246",
-      "cnpj": "11111111111111",
-      "name": "Devel Lanche",
+      "id": "35d8",
+      "cnpj": "22222222222222",
+      "name": "Restaurante Devel",
       "phone": "11111111111",
       "email": "teste@develfood.com",
       "password": "Teste!23",
-      "foodTypes": [
-        "Brasileira",
-        "Picante"
+      "types": [
+        "Picante",
+        "Mexicana"
       ],
-      "nickname": "Devel",
-      "zipcode": "95040000",
-      "street": "Rua General Arcy da Rocha Nóbrega",
-      "neighborhood": "Jardim América",
-      "city": "Caxias do Sul",
-      "state": "RS",
-      "number": "1"
+      "address": {
+        "nickname": "Devel",
+        "zipcode": "95040000",
+        "street": "Rua General Arcy da Rocha Nóbrega",
+        "neighborhood": "Jardim América",
+        "city": "Caxias do Sul",
+        "state": "RS",
+        "number": "500"
+      }
     }
   ],
   "menu": [],
@@ -30,9 +32,9 @@
       "quantity": 1,
       "paymentType": "Crédito",
       "price": 25,
-      "orderDate": "2025-03-08T12:00:00.000Z",
+      "orderDate": "2025-03-09T12:00:00.000Z",
       "status": "Em Preparação",
-      "statusChangedDate": "2025-03-08T02:14:23.504Z"
+      "statusChangedDate": "2025-03-09T02:14:23.504Z"
     },
     {
       "id": "2",
@@ -41,9 +43,9 @@
       "quantity": 2,
       "paymentType": "Débito",
       "price": 40,
-      "orderDate": "2025-03-08T12:00:00.000Z",
+      "orderDate": "2025-03-09T12:00:00.000Z",
       "status": "Em Preparação",
-      "statusChangedDate": "2025-03-08T13:50:48.308Z"
+      "statusChangedDate": "2025-03-09T13:50:48.309Z"
     },
     {
       "id": "3",
@@ -52,9 +54,9 @@
       "quantity": 1,
       "paymentType": "Dinheiro",
       "price": 35,
-      "orderDate": "2025-03-08T12:00:00.000Z",
+      "orderDate": "2025-03-09T12:00:00.000Z",
       "status": "Em Preparação",
-      "statusChangedDate": "2025-03-08T16:51:19.136Z"
+      "statusChangedDate": "2025-03-09T16:51:19.136Z"
     },
     {
       "id": "4",
@@ -63,9 +65,9 @@
       "quantity": 2,
       "paymentType": "Débito",
       "price": 28,
-      "orderDate": "2025-03-08T12:00:00.000Z",
-      "status": "Em Rota",
-      "statusChangedDate": "2025-03-08T02:00:13.766Z"
+      "orderDate": "2025-03-09T12:00:00.000Z",
+      "status": "Entregue",
+      "statusChangedDate": "2025-03-09T02:41:18.224Z"
     },
     {
       "id": "5",
@@ -74,9 +76,9 @@
       "quantity": 3,
       "paymentType": "Crédito",
       "price": 18,
-      "orderDate": "2025-03-08T12:00:00.000Z",
+      "orderDate": "2025-03-09T12:00:00.000Z",
       "status": "Em Preparação",
-      "statusChangedDate": "2025-03-08T13:39:46.723Z"
+      "statusChangedDate": "2025-03-09T13:39:46.723Z"
     },
     {
       "id": "6",
@@ -85,9 +87,9 @@
       "quantity": 2,
       "paymentType": "Débito",
       "price": 40,
-      "orderDate": "2025-03-08T12:00:00.000Z",
+      "orderDate": "2025-03-09T12:00:00.000Z",
       "status": "Em Preparo",
-      "statusChangedDate": "2025-03-08T16:13:37.762Z"
+      "statusChangedDate": "2025-03-09T16:13:37.762Z"
     },
     {
       "id": "7",
@@ -96,9 +98,9 @@
       "quantity": 5,
       "paymentType": "Dinheiro",
       "price": 50,
-      "orderDate": "2025-03-08T12:00:00.000Z",
+      "orderDate": "2025-03-09T12:00:00.000Z",
       "status": "Em Preparo",
-      "statusChangedDate": "2025-03-08T15:55:30.901Z"
+      "statusChangedDate": "2025-03-09T15:55:30.901Z"
     },
     {
       "id": "8",
@@ -107,9 +109,9 @@
       "quantity": 1,
       "paymentType": "Crédito",
       "price": 30,
-      "orderDate": "2025-03-08T12:00:00.000Z",
+      "orderDate": "2025-03-09T12:00:00.000Z",
       "status": "Em Rota",
-      "statusChangedDate": "2025-03-08T13:39:09.021Z"
+      "statusChangedDate": "2025-03-09T13:39:09.021Z"
     },
     {
       "id": "9",
@@ -118,9 +120,9 @@
       "quantity": 2,
       "paymentType": "Débito",
       "price": 38,
-      "orderDate": "2025-03-08T12:00:00.000Z",
+      "orderDate": "2025-03-09T12:00:00.000Z",
       "status": "Em Rota",
-      "statusChangedDate": "2025-03-08T16:13:42.468Z"
+      "statusChangedDate": "2025-03-09T16:13:42.468Z"
     },
     {
       "id": "10",
@@ -129,9 +131,9 @@
       "quantity": 1,
       "paymentType": "Crédito",
       "price": 60,
-      "orderDate": "2025-03-08T12:00:00.000Z",
+      "orderDate": "2025-03-09T12:00:00.000Z",
       "status": "Em Rota",
-      "statusChangedDate": "2025-03-08T15:34:05.577Z"
+      "statusChangedDate": "2025-03-09T15:34:05.577Z"
     }
   ],
   "reviews": [
