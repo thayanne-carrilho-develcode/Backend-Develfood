@@ -1,139 +1,238 @@
 {
   "restaurants": [
     {
-      "id": "35d8",
-      "cnpj": "22222222222222",
-      "name": "Restaurante Devel",
-      "phone": "12121212111",
+      "id": 2,
+      "cnpj": "11111111111111",
+      "name": "Coco Bambu ",
+      "phone": "22222222222",
       "email": "teste@develfood.com",
       "password": "Teste!23",
       "types": [
-        "Picante",
-        "Mexicana"
+        "Brasileira"
       ],
       "address": {
-        "nickname": "Develcode",
-        "zipcode": "95040000",
-        "street": "Rua General Arcy da Rocha Nóbrega",
-        "neighborhood": "Jardim América",
-        "city": "Caxias do Sul",
-        "state": "RS",
-        "number": "559"
-      }
+        "nickname": "Guarulhos",
+        "zipcode": "07097420",
+        "street": "Avenida Bartholomeu de Carlos",
+        "neighborhood": "Jardim Flor da Montanha",
+        "city": "Guarulhos",
+        "state": "SP",
+        "number": "230"
+      },
+      "restaurantImage": "/images/default-avatar.jpg"
     }
   ],
-  "menu": [],
-  "promotions": [],
+  "menu": [
+    {
+      "name": "Bolo de chocolate",
+      "description": ".......",
+      "price": 49.9,
+      "foodCategory": "SOBREMESA",
+      "foodImage": "https://i.ibb.co/zVBW3ZWb/sobremesa-2.png",
+      "available": true,
+      "createdAt": "2025-03-14T16:15:57.379Z",
+      "updatedAt": "2025-03-14T16:15:57.379Z",
+      "id": 1
+    }
+  ],
+  "promotions": [
+    {
+      "name": "Sextou",
+      "discount": "20",
+      "startDate": "2025-03-14T03:00:00.000Z",
+      "endDate": "2025-03-18T03:00:00.000Z",
+      "promoImage": "https://i.ibb.co/XZ78WHSg/promo-1-png.jpg",
+      "createdAt": "2025-03-14T16:16:37.434Z",
+      "id": 1
+    }
+  ],
   "orders": [
     {
       "id": "1",
-      "name": "Lanche de Frango",
-      "note": "Sem maionese",
-      "quantity": 1,
-      "paymentType": "Crédito",
-      "price": 25,
-      "orderDate": "2025-03-12T12:00:00.000Z",
-      "status": "Esperando Aceitação",
-      "statusChangedDate": "2025-03-12T02:14:23.504Z"
-    },
-    {
-      "id": "2",
-      "name": "Hamburguer Clássico",
-      "note": "Com cebola caramelizada crocrante",
+      "name": "Pizza Calabresa",
+      "note": "Com borda recheada",
       "quantity": 2,
       "paymentType": "Débito",
       "price": 40,
-      "orderDate": "2025-03-12T12:00:00.000Z",
+      "orderDate": "2025-03-14T12:00:00.000Z",
       "status": "Esperando Aceitação",
-      "statusChangedDate": "2025-03-12T13:50:48.312Z"
+      "statusChangedDate": "2025-03-14T02:10:00.000Z"
+    },
+    {
+      "id": "2",
+      "name": "Hambúrguer Bacon",
+      "note": "Sem cebola",
+      "quantity": 1,
+      "paymentType": "Crédito",
+      "price": 30,
+      "orderDate": "2025-03-14T12:05:00.000Z",
+      "status": "Esperando Aceitação",
+      "statusChangedDate": "2025-03-14T02:12:30.000Z"
     },
     {
       "id": "3",
-      "name": "Pizza Marguerita",
-      "note": "Sem tomate",
+      "name": "Salada Caesar",
+      "note": "Com molho extra",
       "quantity": 1,
-      "paymentType": "Dinheiro",
-      "price": 35,
-      "orderDate": "2025-03-12T12:00:00.000Z",
+      "paymentType": "Pix",
+      "price": 22,
+      "orderDate": "2025-03-14T12:10:00.000Z",
       "status": "Esperando Aceitação",
-      "statusChangedDate": "2025-03-12T16:51:19.136Z"
+      "statusChangedDate": "2025-03-14T02:20:00.000Z"
     },
     {
       "id": "4",
-      "name": "Big Devel",
-      "note": "Com queijo extra",
-      "quantity": 2,
-      "paymentType": "Débito",
-      "price": 28,
-      "orderDate": "2025-03-12T12:00:00.000Z",
+      "name": "Sushi Combo",
+      "note": "Sem wasabi",
+      "quantity": 1,
+      "paymentType": "Crédito",
+      "price": 55,
+      "orderDate": "2025-03-14T12:15:00.000Z",
       "status": "Esperando Aceitação",
-      "statusChangedDate": "2025-03-12T02:41:18.224Z"
+      "statusChangedDate": "2025-03-14T02:25:00.000Z"
     },
     {
       "id": "5",
-      "name": "Cachorro Quente",
-      "note": "Com ketchup e mostarda",
-      "quantity": 3,
-      "paymentType": "Crédito",
-      "price": 18,
-      "orderDate": "2025-03-12T12:00:00.000Z",
+      "name": "Lasanha Bolonhesa",
+      "note": "Com queijo extra",
+      "quantity": 1,
+      "paymentType": "Débito",
+      "price": 38,
+      "orderDate": "2025-03-14T12:20:00.000Z",
       "status": "Esperando Aceitação",
-      "statusChangedDate": "2025-03-12T13:39:46.723Z"
+      "statusChangedDate": "2025-03-14T02:30:00.000Z"
     },
     {
       "id": "6",
       "name": "Frango Grelhado",
       "note": "Com arroz e salada",
-      "quantity": 2,
-      "paymentType": "Débito",
-      "price": 40,
-      "orderDate": "2025-03-13T12:00:00.000Z",
+      "quantity": 1,
+      "paymentType": "Dinheiro",
+      "price": 28,
+      "orderDate": "2025-03-14T12:25:00.000Z",
       "status": "Esperando Aceitação",
-      "statusChangedDate": "2025-03-13T16:13:37.762Z"
+      "statusChangedDate": "2025-03-14T02:35:00.000Z"
     },
     {
       "id": "7",
-      "name": "Tacos de Carne",
-      "note": "Com guacamole",
-      "quantity": 5,
-      "paymentType": "Dinheiro",
-      "price": 50,
-      "orderDate": "2025-03-13T12:00:00.000Z",
+      "name": "Espaguete Carbonara",
+      "note": "Sem pimenta",
+      "quantity": 1,
+      "paymentType": "Crédito",
+      "price": 35,
+      "orderDate": "2025-03-14T12:30:00.000Z",
       "status": "Esperando Aceitação",
-      "statusChangedDate": "2025-03-13T15:55:30.901Z"
+      "statusChangedDate": "2025-03-14T02:40:00.000Z"
     },
     {
       "id": "8",
-      "name": "Bife à Parmegiana",
-      "note": "Sem queijo",
+      "name": "Tapioca de Queijo",
+      "note": "Com orégano",
       "quantity": 1,
-      "paymentType": "Crédito",
-      "price": 30,
-      "orderDate": "2025-03-13T12:00:00.000Z",
+      "paymentType": "Pix",
+      "price": 12,
+      "orderDate": "2025-03-14T12:35:00.000Z",
       "status": "Esperando Aceitação",
-      "statusChangedDate": "2025-03-13T13:39:12.021Z"
+      "statusChangedDate": "2025-03-14T02:45:00.000Z"
     },
     {
       "id": "9",
-      "name": "Espaguete à Bolonhesa",
-      "note": "Com molho extra",
+      "name": "Pastel de Carne",
+      "note": "Sem azeitona",
       "quantity": 2,
-      "paymentType": "Débito",
-      "price": 38,
-      "orderDate": "2025-03-13T12:00:00.000Z",
+      "paymentType": "Crédito",
+      "price": 18,
+      "orderDate": "2025-03-14T12:40:00.000Z",
       "status": "Esperando Aceitação",
-      "statusChangedDate": "2025-03-13T16:13:42.468Z"
+      "statusChangedDate": "2025-03-14T02:50:00.000Z"
+    },
+    {
+      "id": "10",
+      "name": "Pão de Queijo",
+      "note": "",
+      "quantity": 1,
+      "paymentType": "Débito",
+      "price": 15,
+      "orderDate": "2025-03-14T12:45:00.000Z",
+      "status": "Esperando Aceitação",
+      "statusChangedDate": "2025-03-14T02:55:00.000Z"
+    },
+    {
+      "id": "11",
+      "name": "Lanche de Frango",
+      "note": "Sem maionese",
+      "quantity": 1,
+      "paymentType": "Crédito",
+      "price": 25,
+      "orderDate": "2025-03-14T12:50:00.000Z",
+      "status": "Esperando Aceitação",
+      "statusChangedDate": "2025-03-14T03:00:00.000Z"
     },
     {
       "id": "12",
-      "name": "Sushi Variado",
-      "note": "Com molho de soja",
+      "name": "Risoto de Camarão",
+      "note": "Com parmesão extra",
+      "quantity": 1,
+      "paymentType": "Pix",
+      "price": 50,
+      "orderDate": "2025-03-14T12:55:00.000Z",
+      "status": "Esperando Aceitação",
+      "statusChangedDate": "2025-03-14T03:05:00.000Z"
+    },
+    {
+      "id": "13",
+      "name": "Milkshake de Chocolate",
+      "note": "Com chantilly",
       "quantity": 1,
       "paymentType": "Crédito",
-      "price": 60,
-      "orderDate": "2025-03-13T12:00:00.000Z",
+      "price": 18,
+      "orderDate": "2025-03-14T14:00:00.000Z",
       "status": "Esperando Aceitação",
-      "statusChangedDate": "2025-03-13T15:34:05.577Z"
+      "statusChangedDate": "2025-03-14T16:19:40.980Z"
+    },
+    {
+      "id": "14",
+      "name": "Coxinha",
+      "note": "Com catupiry",
+      "quantity": 3,
+      "paymentType": "Dinheiro",
+      "price": 9,
+      "orderDate": "2025-03-14T14:05:00.000Z",
+      "status": "Esperando Aceitação",
+      "statusChangedDate": "2025-03-14T18:11:31.567Z"
+    },
+    {
+      "id": "15",
+      "name": "Peixe Grelhado",
+      "note": "Com legumes",
+      "quantity": 1,
+      "paymentType": "Débito",
+      "price": 42,
+      "orderDate": "2025-03-14T14:10:00.000Z",
+      "status": "Esperando Aceitação",
+      "statusChangedDate": "2025-03-14T16:19:30.799Z"
+    },
+    {
+      "id": "16",
+      "name": "Sorvete de Morango",
+      "note": "Com cobertura extra",
+      "quantity": 1,
+      "paymentType": "Pix",
+      "price": 14,
+      "orderDate": "2025-03-14T14:15:00.000Z",
+      "status": "Esperando Aceitação",
+      "statusChangedDate": "2025-03-14T16:19:21.222Z"
+    },
+    {
+      "id": "17",
+      "name": "Suco Natural",
+      "note": "Sem açúcar",
+      "quantity": 1,
+      "paymentType": "Crédito",
+      "price": 10,
+      "orderDate": "2025-03-14T14:20:00.000Z",
+      "status": "Esperando Aceitação",
+      "statusChangedDate": "2025-03-14T18:11:27.667Z"
     }
   ],
   "reviews": [
@@ -182,19 +281,19 @@
     {
       "comment": "Comida boa, mas o preço foi muito alto.",
       "rating": 2,
-      "date": "12/02/2025",
+      "date": "11/02/2025",
       "id": "a4f2"
     },
     {
       "comment": "Serviço excelente, recomendo!",
       "rating": 4,
       "date": "10/02/2025",
-      "id": "107f"
+      "id": "137f"
     },
     {
       "comment": "Fui bem atendido, mas achei o ambiente barulhento.",
       "rating": 3,
-      "date": "10/02/2025",
+      "date": "09/02/2025",
       "id": "0faf"
     }
   ]
