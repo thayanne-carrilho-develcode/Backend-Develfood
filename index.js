@@ -1,4 +1,5 @@
 const jsonServer = require('json-server');
+const auth = require('json-server-auth');
 const cors = require('cors');
 
 const server = jsonServer.create();
@@ -9,6 +10,8 @@ const allowedOrigins = [
   "https://develfood-thay.onrender.com",
   "https://develfood-thayanne.onrender.com"
 ];
+
+server.db = router.db;
 
 server.use(cors({
   origin: (origin, callback) => {
@@ -22,6 +25,7 @@ server.use(cors({
 
 server.use(middlewares);
 server.use(jsonServer.bodyParser);
+server.use(auth);
 server.use(router);
 
 const PORT = process.env.PORT || 3001;
