@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Redefinição de Senha</title>
+  <style>
+    html, body {
+      color: #fff;
+      font-family: 'Roboto Condensed', sans-serif;
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 16px;
+    }
+
+    .container {
+      background-color: #fff;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+      width: 100%;
+      max-width: 450px;
+      text-align: center;
+    }
+
+    h2 {
+      font-size: 24px;
+      font-weight: 700;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 16px;
+      margin-bottom: 20px;
+      line-height: 1.5;
+    }
+
+    .token {
+      background-color: #111;
+      color: #fff;
+      padding: 20px;
+      font-size: 28px;
+      font-weight: bold;
+      border-radius: 8px;
+      letter-spacing: 2px;
+      margin: 20px 0;
+    }
+
+    .info {
+      color: #bbb;
+      font-size: 14px;
+    }
+
+    .token:hover {
+      background-color: #333;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Redefinição de Senha</h2>
+    <p>Olá, somos da Develfood!</p>
+    <p>Recebemos uma solicitação para redefinir sua senha. Use o código abaixo para continuar:</p>
+
+    <div class="token">{{TOKEN}}</div>
+
+    <p>Se você não solicitou a redefinição, ignore este e-mail.</p>
+    <p class="info">Este código expira em 5 minutos.</p>
+  </div>
+</body>
+</html>
