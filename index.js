@@ -6,6 +6,7 @@ const crypto = require('crypto');
 require("dotenv").config();
 const fs = require('fs');
 const path = require('path');
+const jwt = require('jsonwebtoken');
 
 const server = jsonServer.create();
 const router = jsonServer.router('db.json');
@@ -13,7 +14,6 @@ const middlewares = jsonServer.defaults();
 
 const allowedOrigins = [
   "http://localhost:5174",
-  "https://develfood-thay.onrender.com",
   "https://develfood-thayanne.onrender.com"
 ];
 
@@ -69,7 +69,6 @@ server.post('/restaurant/create', (req, res) => {
 });
 
 //LOGIN
-
 server.post('/restaurant/auth', (req, res) => {
   const { email, password } = req.body;
   
@@ -79,7 +78,9 @@ server.post('/restaurant/auth', (req, res) => {
     return res.status(400).json({ error: 'E-mail ou senha inválidos.' });
   }
 
-  return res.status(200).json({ token: 'seu-token-aqui' });
+  const token = jwt.sign({ email }, 'secreta-chave', { expiresIn: '1h' });
+
+  return res.status(200).json({ token });
 });
 
 server.get('/restaurants', (req, res) => {
