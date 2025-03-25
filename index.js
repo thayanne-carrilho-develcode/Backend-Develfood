@@ -12,6 +12,7 @@ const router = jsonServer.router('db.json');
 const middlewares = jsonServer.defaults();
 
 const allowedOrigins = [
+  "http://localhost:5174/#/",
   "https://develfood-thay.onrender.com",
   "https://develfood-thayanne.onrender.com"
 ];
@@ -44,16 +45,41 @@ const transporter = nodemailer.createTransport({
 
 let tokens = {}; 
 
-server.post('/restaurants/login', (req, res) => {
+server.post('/restaurant/create', (req, res) => {
+  const { cnpj, name, phone, email, password, types, address } = req.body;
+
+  const existingRestaurant = router.db.get('restaurants').find({ email }).value();
+  if (existingRestaurant) {
+    return res.status(400).json({ error: 'Usuário já existente!' });
+  }
+
+  const newRestaurant = {
+    cnpj,
+    name,
+    phone,
+    email,
+    password,
+    types,
+    address,
+  };
+
+  router.db.get('restaurants').push(newRestaurant).write();
+
+  return res.status(201).json({ message: 'Cadastro concluído com sucesso!' });
+});
+
+//LOGIN
+
+server.post('/restaurant/auth', (req, res) => {
   const { email, password } = req.body;
   
   const restaurant = router.db.get('restaurants').find({ email, password }).value();
   
   if (!restaurant) {
-    return res.status(404).json({ error: 'E-mail ou senha inválidos.' });
+    return res.status(400).json({ error: 'E-mail ou senha inválidos.' });
   }
 
-  return res.status(200).json(restaurant);
+  return res.status(200).json({ token: 'seu-token-aqui' });
 });
 
 server.get('/restaurants', (req, res) => {
