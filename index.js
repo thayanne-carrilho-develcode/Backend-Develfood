@@ -12,7 +12,7 @@ const router = jsonServer.router('db.json');
 const middlewares = jsonServer.defaults();
 
 const allowedOrigins = [
-  "http://localhost:5174/#/",
+  "http://localhost:5174",
   "https://develfood-thay.onrender.com",
   "https://develfood-thayanne.onrender.com"
 ];
